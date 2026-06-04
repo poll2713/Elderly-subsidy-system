@@ -732,8 +732,8 @@ function renderDashboard(){
   if(c4)c4.setOption({
     tooltip:{trigger:'item'},
     series:[
-      {name:'补贴类型',type:'pie',radius:['0','50%'],center:['25%','55%'],data:Object.keys(typeCount).map(k=>({name:k,value:typeCount[k]})),label:{formatter:'{b}\n{d}%'}},
-      {name:'补贴等级',type:'pie',radius:['0','50%'],center:['75%','55%'],data:Object.keys(levelCount).map(k=>({name:k,value:levelCount[k]})),label:{formatter:'{b}\n{d}%'}}
+      {name:'补贴类型',type:'pie',radius:['0','42%'],center:['28%','55%'],data:Object.keys(typeCount).map(k=>({name:k,value:typeCount[k]})),label:{formatter:'{b}\n{d}%'}},
+      {name:'补贴等级',type:'pie',radius:['0','42%'],center:['72%','55%'],data:Object.keys(levelCount).map(k=>({name:k,value:levelCount[k]})),label:{formatter:'{b}\n{d}%'}}
     ]
   });
   // KPI
